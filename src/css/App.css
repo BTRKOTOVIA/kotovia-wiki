@@ -1,0 +1,42 @@
+.App {
+  padding:  15px;
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.cards-block{
+  /* display: flex;
+  flex-wrap: wrap; */
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  @media (max-width: 767.98px) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @media (max-width: 570px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.card-text{
+  color: #000;
+  font-size: 14px;
+}
+
+.card-title{
+  color: #000;
+  font-size: 14px;
+}
+
+.card-img{
+  width: 100%;
+}
